@@ -96,9 +96,9 @@ const material = new THREE.ShaderMaterial({
         uColor: new THREE.Uniform(new THREE.Color(materialParameters.color)),
         uShadeColor: new THREE.Uniform(new THREE.Color(materialParameters.shadeColor)),
         uResolution: new THREE.Uniform( new THREE.Vector2(sizes.width * sizes.pixelRatio, sizes.height * sizes.pixelRatio)),
-        uSadowRepetition: new THREE.Uniform(50.),
+        uSadowRepetition: new THREE.Uniform(100.),
         uShadowColor: new THREE.Uniform( new THREE.Color(materialParameters.shadowColor)),
-        uLightRepetition: new THREE.Uniform(150.),
+        uLightRepetition: new THREE.Uniform(130.),
         uLightColor: new THREE.Uniform( new THREE.Color(materialParameters.lightColor)),
     }
 })
